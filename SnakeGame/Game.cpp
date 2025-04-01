@@ -54,11 +54,6 @@ void runGame() {
     Sleep(300);
     srand(time(0));
 
-    for (int x = -1; x < 20; x++) {
-        for (int y = -1; y < 20; y++) {
-            txtPlot({ x, y }, 72);
-        }
-    }
 
 
     point playerloc = { 0, 10 };
